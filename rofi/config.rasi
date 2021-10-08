@@ -1,0 +1,14 @@
+configuration {
+    font                : "Iosevka Term Medium 12";
+    show-icons          : true;
+    icon-theme          : "Papirus";
+    display-drun        : "Applications";
+    drun-display-format : "{name}";
+    disable-history     : true;
+    fullscreen          : false;
+    hide-scrollbar      : true;
+    sidebar-mode        : false;
+}
+
+@import "colorscheme.rasi"
+@import "fluent.rasi"

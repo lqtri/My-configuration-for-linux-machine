@@ -1,0 +1,66 @@
+set selection-clipboard clipboard
+set recolor true
+set adjust-open width
+set n-completion-items 5
+set statusbar-v-padding 30
+set statusbar-h-padding 30
+set font "Iosevka Nerd Font 14"
+set page-padding 5
+set statusbar-basename true
+set statusbar-home-tilde true
+
+map <C-i> recolor
+
+set notification-error-bg       "#2a2f33" # bg
+set notification-error-fg       "#ec7279" # bright:red
+set notification-warning-bg     "#2a2f33" # bg
+set notification-warning-fg     "#deb974" # bright:yellow
+set notification-bg             "#2a2f33" # bg
+set notification-fg             "#a0c980" # bright:green
+
+set completion-bg               "#31363b" # bg2
+set completion-fg               "#bdc3c7" # fg
+set completion-group-bg         "#3c3836" # bg1
+set completion-group-fg         "#88909f" # gray
+set completion-highlight-bg     "#6cb6eb" # bright:blue
+set completion-highlight-fg     "#31363b" # bg2
+
+# Define the color in index mode
+set index-bg                    "#31363b" # bg2
+set index-fg                    "#bdc3c7" # fg
+set index-active-bg             "#6cb6eb" # bright:blue
+set index-active-fg             "#31363b" # bg2
+
+set inputbar-bg                 "#2a2f33" # bg
+set inputbar-fg                 "#bdc3c7" # fg
+
+set statusbar-bg                "#31363b" # bg2
+set statusbar-fg                "#bdc3c7" # fg
+
+set highlight-color             "#deb974" # bright:yellow
+set highlight-active-color      "#fe8019" # bright:orange
+
+set default-bg                  "#2a2f33" # bg
+set default-fg                  "#dae1e6" # fg
+set render-loading              true
+set render-loading-bg           "#2a2f33" # bg
+set render-loading-fg           "#bdc3c7" # fg
+
+# Recolor book content's color
+set recolor-lightcolor          "#2a2f33" # bg
+set recolor-darkcolor           "#dae1e6" # fg
+set recolor                     "true"
+# set recolor-keephue             true      # keep original color
+
+# Startup options
+#
+#
+set adjust-open width
+set recolor true
+
+map <Left> navigate previous
+map <Right> navigate next
+map <C-=> zoom in
+map <C--> zoom out
+map B jumplist backward
+map b jumplist forward
