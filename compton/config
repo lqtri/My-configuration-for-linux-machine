@@ -1,0 +1,37 @@
+opacity-rule = [
+	0:name*="tint2",
+	"80:class_g='cmatrix'",
+	"0:class_g='cava'"
+];
+
+# Blur
+blur-background = true;
+blur-method = "kawase";
+blur-strength = 20;
+
+# Fading
+fading = true;
+fade-in-step = 0.2;
+fade-out-step = 0.2;
+fade-exclude = [ ];
+
+# Other
+mark-wmwin-focused = true;
+mark-ovredir-focused = true;
+detect-rounded-corners = true;
+detect-client-opacity = true;
+refresh-rate = 0;
+vsync = "opengl-swc";
+dbe = false;
+unredir-if-possible = true;
+focus-exclude = [ "class_g = 'Cairo-clock'" ];
+detect-transient = true;
+detect-client-leader = true;
+invert-color-include = [ ];
+
+# GLX backend
+backend = "glx";
+glx-no-stencil = true;
+glx-copy-from-front = false;
+glx-swap-method = "undefined";
+glx-no-rebind-pixmap = true;

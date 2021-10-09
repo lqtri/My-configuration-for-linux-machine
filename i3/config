@@ -151,7 +151,7 @@ exec_always --no-startup-id feh --bg-scale ~/Pictures/wallpaper10.jpeg
 exec_always --no-startup-id ibus-daemon -d &
 
 # Compositor
- exec_always --no-startup-id compton --config ~/.config/picom/config
+ exec_always --no-startup-id compton --config ~/.config/compton/config
 
 # Notification
 exec_always --no-startup-id dunst ~/.config/dunst/dunstrc
